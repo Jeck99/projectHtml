@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #e72a11; color: white">
+    <header style="height: 10vh;">HEADER</header>
+    <div style="border: 5px solid black; width: 90vw; height:75vh">
+      <form>
+        <label for="first_name">FIRST NAME:</label>
+        <input type="text" name="first_name" />
+        <label for="age">AGE:</label>
+        <input
+          type="number"
+          name="age"
+          min="5"
+          max="18"
+          onKeyDown="return false"
+        />
+        <label for="color">COLOR:</label>
+        <input type="color" name="color" />
+        <label for="email">EMAIL:</label>
+        <input type="email" name="email" />
+        <button>save</button>
+      </form>
+    </div>
+    <footer style="height:15vh">FOOTER</footer>
+  </body>
+</html>
